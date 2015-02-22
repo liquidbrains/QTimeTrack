@@ -27,5 +27,6 @@ RESOURCES += \
 
 #unix:!macx: LIBS += -lxcb -lxcb-screensaver
 
-#unix: CONFIG += link_pkgconfig
-#unix: PKGCONFIG += xcb xcb-screensaver xcb-xkb xcb-cursor x11-xcb
+unix: CONFIG += link_pkgconfig
+unix: PKGCONFIG += xcb xcb-screensaver
+#xcb-xkb xcb-cursor x11-xcb

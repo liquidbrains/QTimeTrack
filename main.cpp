@@ -4,14 +4,15 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    a.setApplicationName("QBullet");
-    a.setApplicationDisplayName("QBullet PushBullet client");
+    a.setApplicationName("QTimeTrack");
+    a.setApplicationDisplayName("Qt based time tracking client");
     a.setApplicationVersion("0.1");
     a.setOrganizationName("Wian Potgieter");
     a.setQuitOnLastWindowClosed(false);
 
     Settings w;
-    w.show();
+    //if()
+    //w.show();
 
     return a.exec();
 }
